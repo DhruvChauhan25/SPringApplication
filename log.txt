@@ -1,0 +1,33 @@
+2024-01-14 19:33:09,366 [INFO] com.mycompany.MyWebAppApplication [restartedMain] Starting MyWebAppApplication using Java 21.0.1 with PID 10180 (C:\Users\KumarDhr\Downloads\MyWebApp\MyWebApp\target\classes started by KumarDhr in C:\Users\KumarDhr\Downloads\MyWebApp\MyWebApp)
+2024-01-14 19:33:09,367 [INFO] com.mycompany.MyWebAppApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-01-14 19:33:09,432 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 19:33:09,432 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 19:33:10,478 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-14 19:33:10,573 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interface.
+2024-01-14 19:33:11,334 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-01-14 19:33:11,353 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-01-14 19:33:11,353 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14 19:33:11,430 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-01-14 19:33:11,430 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1997 ms
+2024-01-14 19:33:11,621 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-14 19:33:11,752 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-14 19:33:11,836 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-01-14 19:33:12,283 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-14 19:33:12,341 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-01-14 19:33:13,119 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@266cb24
+2024-01-14 19:33:13,122 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-01-14 19:33:13,228 [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-14 19:33:14,570 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-14 19:33:14,683 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-14 19:33:15,261 [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2024-01-14 19:33:16,324 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-01-14 19:33:16,371 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2024-01-14 19:33:16,380 [INFO] com.mycompany.MyWebAppApplication [restartedMain] Started MyWebAppApplication in 7.669 seconds (process running for 8.381)
+2024-01-14 19:33:38,396 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 19:33:38,396 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-01-14 19:33:38,396 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-01-14 19:33:38,460 [INFO] com.mycompany.MainController [http-nio-8080-exec-1] Showing the index of the Page 
+2024-01-14 19:33:40,004 [INFO] com.mycompany.user.UserService [http-nio-8080-exec-4] Listing up all the record
+2024-01-14 19:33:40,160 [INFO] com.mycompany.user.UserService [http-nio-8080-exec-5] Listing up all the record
+2024-01-14 19:33:40,339 [INFO] com.mycompany.user.UserRepository [http-nio-8080-exec-4] List of Books is Displayed
+2024-01-14 19:33:40,339 [INFO] com.mycompany.user.UserRepository [http-nio-8080-exec-5] List of Books is Displayed
