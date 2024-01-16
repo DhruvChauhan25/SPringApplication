@@ -17,7 +17,7 @@ import java.util.List;
 
 @Controller
 public class UserController {
-    Logger logger= LoggerFactory.getLogger(UserRepository.class);
+    Logger logger= LoggerFactory.getLogger(UserController.class);
     @Autowired private UserService service;
 
     @GetMapping("/users")
